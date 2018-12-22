@@ -7,9 +7,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 
-public class RedisStringTest {
+public class RedisLuaTest {
 	
-	private static final Logger logger = LoggerFactory.getLogger(RedisStringTest.class);
+	private static final Logger logger = LoggerFactory.getLogger(RedisLuaTest.class);
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("redis-conf/string/string-redis.xml");
